@@ -1,0 +1,30 @@
+pseudo code:2.6
+stage one:
+- Prompt the user to read an integer between 0 and 1000 and adds all the digits in the integer.
+- display the result.
+
+stage two:
+- Prompt the user to enter a number between 0 and 1000.
+- collect the Number.
+- store as inBetween
+
+- calculate "inBetween" using "inBetween"/ 100
+- collect the result 
+- store a "digit1"
+
+- calculate the second digit using "inBetween" / 10.
+- collect the result 
+- store as "number2"
+
+- Calculate the final second digit using "number2" % 10.
+- collect the result.
+- store as "digit2"
+
+- calculate the third digit using "inBetween" % 10
+- collect the result
+- store as "digit3"
+
+- Sum "digit1" + "digit2" + "digit3"
+- collect the result.
+- store as "sum"
+- Display "sum"

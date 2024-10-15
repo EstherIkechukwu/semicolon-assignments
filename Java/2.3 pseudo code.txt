@@ -1,0 +1,14 @@
+2.3 Pseudo code
+Stage One:
+- prompt the user to collect number in feets
+- convert from feet to meter
+- Display the result.
+
+Stage two:
+- Prompt the user to enter number in feet.
+- collect the number in feet.
+- store as "Number in feet".
+
+- convert number in feet to meter by multiplying "number in feet" * 0.305.
+- Store as "Meters"
+- Dsiplay "Meters"

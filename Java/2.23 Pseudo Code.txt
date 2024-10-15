@@ -1,0 +1,24 @@
+2.23
+Pseudo code:
+Stage One:
+- Prompt the user to collect driving distance.
+- Prompt the user to collect the fuel eficency in mile per gallon.
+- Prompt the user to collect the price of fuel.
+- Display the cost of the trip.
+
+Stage two:
+- Prompt the user to enter the driving distance.
+- Collect the driving distance. 
+- Store it as "driving distance".
+
+-Prompt the user to enter fuel effiency in mile per gallon.
+-Collect the fuel effiency in mile per gallon.
+-Store as "Fuel efficency".
+
+-Prompt the user to enter the price of fuel per gallon.
+-Collect the price of fuel per gallon.
+-Store as "Price of fuel".
+
+- calculate the cost of driving distance of the trip using "driving distance"/"fuel efficency" * "Price of fuel"
+- store as "cost of trip"
+- Display the price of driving in dollars.

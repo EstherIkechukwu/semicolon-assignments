@@ -1,0 +1,11 @@
+pseudo code:
+stage one:
+- Prompt the user to enter "Hi my name is Esther, and i write java"
+- Display the result.
+
+stage Two:
+- Prompt the user to enter "Hi my name is Esther, and i write Java"
+- Collect the result
+- Display the result.
+
+ 

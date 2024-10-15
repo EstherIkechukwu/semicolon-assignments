@@ -1,0 +1,22 @@
+2.9 Pseudo Code
+Stage One:
+- Prompt the user to enter the starting velocity in meters/second, the ending velocity in meters/second and the time span in seconds.
+- Display the average Acceleration.
+
+Stage two:
+- Prompt the user to enter the Starting velocity in meters/second.
+- Collect velocity in meter/second.
+- Store as "starting velocity".
+
+- Prompt the user to enter the ending velocity in meters/second.
+- Collect the ending velocity.
+- Store as "ending velocity".
+
+- Prompt the user to enter the time span in seconds.
+- Collect the time span in seconds.
+- Store as "Time span".
+
+- Calculate the Average Acceleration using a = ("ending velocity" - "starting velocity") / "Time span"
+- Collect the result.
+- Store as "Average acceleration.
+- Display "Average acceleration.

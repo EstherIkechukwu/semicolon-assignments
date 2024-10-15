@@ -1,0 +1,13 @@
+pseudo code:
+stage one:
+- prompt the user enter the sum (3 + 4 + 7 + 9 + 10) and /2
+- display the result
+
+stage two:
+- prompt the user to enter five integers the sum of 3 + 4 + 7 + 9 + 10
+- collect the result
+- store as "sum"
+
+- divide "sum" / 2
+- collect the result
+- display the result.

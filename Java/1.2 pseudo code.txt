@@ -1,0 +1,9 @@
+1.2 pseudo code
+Stage one:
+- Prompt the user to enter "I love Java"
+- Display "I love Java"
+
+Stage Two:
+- Prompt the user to enter "I love Java"
+- Collect the result.
+- Store as "I love Java".
