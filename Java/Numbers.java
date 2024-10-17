@@ -17,52 +17,52 @@ public class Numbers{
 	System.out.print("Enter fifth number");
 	int fifth = input.nextInt();
 
-	if(first < 0);{
-	System.out.printf("%d < 0", first);
+	if(first < 0){
+	System.out.printf("%d < 0%n", first);
 	}
-	if(second < 0);{
-	System.out.printf("%d < 0", second);
+	if(second < 0){
+	System.out.printf("%d < 0%n", second);
  	}
-	if (third < 0);{
-	System.out.printf("%d < 0", third);
+	if (third < 0){
+	System.out.printf("%d < 0%n", third);
 	}
-	if (fourth < 0);{
-	System.out.printf("%d < 0", fourth);
+	if (fourth < 0){
+	System.out.printf("%d < 0%n", fourth);
 	}
-	if (fifth < 0);{
-	System.out.printf("%d < 0", fifth);
-	}
-
-	if(first > 0);{
-	System.out.printf("%d > 0", first);
-	}
-	if(second > 0);{
-	System.out.printf("%d > 0", second);
-	}
-	if(third > 0);{
-	System.out.printf("%d > 0", third);
-	}
-	if(fourth > 0);{
-	System.out.printf("%d > 0", fourth);
-	}
-	if(fifth > 0);{
-	System.out.printf("%d > 0", fifth);
+	if (fifth < 0){
+	System.out.printf("%d < 0%n", fifth);
 	}
 
-	if(first == 0);{
-	System.out.printf("%d == 0", first);
+	if(first > 0){
+	System.out.printf("%d > 0%n", first);
 	}
- 	if(second == 0);{
-	System.out.printf("%d == 0", second);
+	if(second > 0){
+	System.out.printf("%d > 0%n", second);
 	}
-	if(third == 0);{
-	System.out.printf("%d == 0", third);
+	if(third > 0){
+	System.out.printf("%d > 0%n", third);
 	}
-	if(fourth == 0);{  
-	System.out.printf("%d == 0", fourth);
+	if(fourth > 0){
+	System.out.printf("%d > 0%n", fourth);
 	}
-	if(fifth == 0);{
-	System.out.printf("%d == 0", fifth);
+	if(fifth > 0){
+	System.out.printf("%d > 0%n", fifth);
+	}
+
+	if(first == 0){
+	System.out.printf("%d == 0%n", first);
+	}
+ 	if(second == 0){
+	System.out.printf("%d == 0%n", second);
+	}
+	if(third == 0){
+	System.out.printf("%d == 0%n", third);
+	}
+	if(fourth == 0){  
+	System.out.printf("%d == 0%n", fourth);
+	}
+	if(fifth == 0){
+	System.out.printf("%d == 0%n", fifth);
 	}
 }
 }

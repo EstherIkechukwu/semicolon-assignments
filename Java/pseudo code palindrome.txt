@@ -1,0 +1,31 @@
+pseudo code: palindrome
+Stage one:
+- Prompt the user to enter a three digit integer and determine whether it is a palindrome integer.
+- Display the result.
+
+Stage Two:
+- prompt the user to enter a three digit integer.
+- collect the three digit integer.
+- Store as "number1"
+
+- separate the first number using "number1" / 100
+- collect the result
+- store as "digit1" 
+
+- separate the second number using "number1" / 10
+- collect the result.
+- store as "number2"
+
+- calculate the final second number using "number2" % 10
+- collect the result 
+- store as "digit2"
+
+- calculate the third digit using "number1" % 10
+- collect the result
+- store as "digit3"
+
+- if "digit1" == "digit3"
+- display "number1" as a palindrome.
+
+- if "digit1" != "digit3"
+- display "number1" as non-palindrome

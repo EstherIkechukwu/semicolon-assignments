@@ -7,7 +7,7 @@ public class Meters{
 	double numberInFeet = input.nextDouble();
 
 	double meters = numberInFeet * 0.305;
-	System.out.printf("The result in feets is %f" , meters);
+	System.out.printf("The result in feets is %.4f" , meters);
 
 
 }
