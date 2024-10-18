@@ -1,0 +1,19 @@
+pseudo code: 
+stage one:
+- Read the user's weight in pounds and height in inches.
+- calculate the user's body mass index.
+- Display the result.
+
+Stage two:
+- prompt the user to read weight in pounds 
+- collect the result
+- store as "weightInPounds"
+
+- prompt the user to read height in inches
+- collect the result
+- store as "heightInInches"
+
+- calculate the body mass index using (weightInPounds * 703) / heightInInches * heightInInches
+- collect the result
+- Store as "bodyMassIndex"
+- Display the result.
