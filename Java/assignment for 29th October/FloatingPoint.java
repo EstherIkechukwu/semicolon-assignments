@@ -7,13 +7,14 @@ public class FloatingPoint{
 	double firstNumber = input.nextDouble();
 
 	System.out.print("Enter second floating point number: ");
-	double secondNumberCheck = input.nextDouble();
+	double secondNumber = input.nextDouble();
 
-	Integer firstNumberCheck = (int)firstNumber;
-	Integer secondNumberCheck = (int)secondNumber;
-
-
-
+		if(firstNumber != secondNumber){
+			System.out.print("They are different");
+		}
+		else if(firstNumber == secondNumber){
+			System.out.print("They are the same");
+		}
 
 
 	
