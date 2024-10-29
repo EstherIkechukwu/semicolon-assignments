@@ -25,7 +25,7 @@ public class TaxCalculator{
 	secondTaxRate = 20/100;
 
 		if(citizenNameOne > 0 && citizenNameOne <= 30,000){
-
+			
 		} 
 
 
