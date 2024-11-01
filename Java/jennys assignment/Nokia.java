@@ -33,15 +33,15 @@ public class Nokia{
 			
 			switch(options){
 			case 1:
-			System.out.println("Type of view");
+			System.out.println("Type of view"); break;
 			case 2:
-			System.out.println("Memory status");
+			System.out.println("Memory status"); break;
 			}
 		break; 
 		case 9:
-		System.out.println("Speed dials");
+		System.out.println("Speed dials"); break;
 		case 10:
-		System.out.println("Voice tags");
+		System.out.println("Voice tags"); 
 	}
 	break;
 
@@ -79,6 +79,7 @@ public class Nokia{
 		System.out.print("Voice mailbox number"); break;
 		case 10:
 		System.out.print("Service command editor"); break;
+	}
 
 	case 3:
 	System.out.println("Chat"); break;
@@ -97,9 +98,8 @@ public class Nokia{
 		case 4:
 		System.out.println("Erase recent call lists"); break;
 		case 5:
-		System.out.println("Show call duration\n1. last call duration\n2. All calls duration\n3. Received calls' duration\n4. Dialled calls duration\n5. Clear timers"); break;
+		System.out.println("Show call duration\n1. last call duration\n2. All calls duration\n3. Received calls' duration\n4. Dialled calls duration\n5. Clear timers");
 		int showCallDuration = input.nextInt();
-			
 			switch(showCallDuration){
 				case 1:
 				System.out.println("last call duration");
@@ -112,17 +112,17 @@ public class Nokia{
 				case 5:
 				System.out.println("Clear timers");
 			}
+		break;
 		case 6:
-		System.out.println("Show call costs\n1. Last call "); break;
+		System.out.println("Show call costs\n1. Last call ");
 		int showCallCosts = input.nextInt();
-
 			switch(showCallCosts){
 				case 1:
-				System.out.println("Last call cost");
+				System.out.println("Last call cost"); break;
 				case 2:
-				System.out.println("All calls' cost");
+				System.out.println("All calls' cost"); break;
 				case 3:
-				System.out.println("Clear counters");
+				System.out.println("Clear counters"); 
 			}
 		break;
 		case 7:
@@ -168,7 +168,6 @@ public class Nokia{
 	case 6:
 	System.out.println("Settings\n 1. Call setting\n2. Phone settings\n3. Security settings\n4. Restore factory settings\n");
 	int settings = input.nextInt();
-
 			switch(settings){  
 				case 1: 
 				System.out.println("Call settings\n1. Automatic redial\n2. Speed dailing\n3. Call waiting options\n4. Own number sending\n5. Phone line in use\n6. Automatic answer.");
@@ -186,13 +185,12 @@ public class Nokia{
 						case 5:
 						System.out.println("Phone in use"); break;
 						case 6:
-						System.out.println("Automatic answer"); break;
+						System.out.println("Automatic answer");
 					}
-	
+					break;
 				case 2: 
 				System.out.println("Phone setting\n 1.Language\n2. Cell info display\n3. Welcome note\n4. Network selection\n5. Lights\n6. Confirm SIM service actions");
 	int phoneSettings = input.nextInt();
-
 				switch(phoneSettings){
 					case 1:
 					System.out.println("Language"); break;
@@ -205,9 +203,9 @@ public class Nokia{
 					case 5:
 					System.out.println("lights"); break;
 					case 6:
-					System.out.println("Confirm SIM service actions"); break;
+					System.out.println("Confirm SIM service actions");
 				}
-
+				break;
 
 				case 3:
 				System.out.println("Security settings\n1. Pin code request\n2. Call barring service\n3. Fixed dialling\n4. CLosed user group\n5. Phone security\n6. Change access codes");	
@@ -228,7 +226,6 @@ public class Nokia{
 					System.out.println("Change access codes"); break;
 
 				}
-	
 		}
 	case 7:
 	System.out.println("Call divert"); break;
@@ -270,7 +267,4 @@ public class Nokia{
 	}
 
 	}
-}
-
-
 }
