@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
-public class Nokia{
-	public static void main(String [] args){	
+public class NokiaReturn{
+	public static void main(String [] args){
+		esther();
+	}
+
+
+	public static void esther(){	
 	Scanner input = new Scanner(System.in);
 
 	System.out.print("Select a number on the menu? please pick an option: MENU\n\n1.Phone book\n2. Messages\n3. Chat\n4. Call register\n5. Tones\n6. Settings\n7. call divert\n8. Games\n9. Calculator\n10. Reminders\n11. Clock\n12. Profiles\n13. SIM services\n");
@@ -14,19 +19,19 @@ public class Nokia{
 
 	switch(phoneBook){  
 		case 1: 
-		System.out.println("Search of contact"); break;
+		System.out.println("Search of contact");esther();
 		case 2: 
-		System.out.println("Service Nos."); break;
+		System.out.println("Service Nos."); esther();
 		case 3:
-		System.out.println("Add name"); break;
+		System.out.println("Add name"); esther();
 		case 4:
-		System.out.println("Erase name"); break;
+		System.out.println("Erase name"); esther();
 		case 5:
-		System.out.println("Edit"); break;
+		System.out.println("Edit"); esther();
 		case 6:
-		System.out.println("Assign Tone"); break;
+		System.out.println("Assign Tone"); esther();
 		case 7:
-		System.out.println("Send b'card"); break;
+		System.out.println("Send b'card"); esther();
 		case 8:
 		System.out.println("options\n 1. Type of view\n 2. Memory status");
 			int options = input.nextInt();
@@ -37,14 +42,14 @@ public class Nokia{
 			case 2:
 			System.out.println("Memory status"); break;
 			}
-		break; 
+		esther(); 
 		case 9:
-		System.out.println("Speed dials"); break;
+		System.out.println("Speed dials"); esther();
 		case 10:
 		System.out.println("Voice tags"); 
-		break;
+		esther();
 	}
-	break;
+	esther();
 
 	case 2:
 	System.out.println("Message\n 1. Write messages\n2. Inbox\n3. Outlook\n4. Picture messages\n5. Templates\n6. Smileys\n7. Message settings\n8. Info service\n9. Voice mailbox number\n10. Service command editor.");
@@ -52,38 +57,38 @@ public class Nokia{
 	
 	switch(messages){
 		case 1:
-		System.out.println("Write messages"); break;
+		System.out.println("Write messages"); esther();
 		case 2:
-		System.out.println("Inbox"); break;
+		System.out.println("Inbox"); esther();
 		case 3:
-		System.out.println("Outbox"); break;
+		System.out.println("Outbox"); esther();
 		case 4:
-		System.out.println("Picture messages"); break;
+		System.out.println("Picture messages"); esther();
 		case 5:
-		System.out.println("Templates"); break;
+		System.out.println("Templates"); esther();
 		case 6:
-		System.out.println("Smileys"); break;
+		System.out.println("Smileys"); esther();
 		case 7:
 		System.out.println("Message settings\n1. Set 1\n2. Common"); 
 			int option = input.nextInt();
 			
 			switch(option){
 				case 1:
-				System.out.println("1. Message centre number\n2. Messages sent as\n3. Message validity"); break;
+				System.out.println("1. Message centre number\n2. Messages sent as\n3. Message validity");
 				case 2:
 				System.out.println("1. Delivery reports\n2. Reply via same centre\n3. Character support ");
 			}
-			break;
+			esther();
 		case 8:
-		System.out.print("Info service"); break;
+		System.out.print("Info service"); esther();
 		case 9:
-		System.out.print("Voice mailbox number"); break;
+		System.out.print("Voice mailbox number"); esther();
 		case 10:
-		System.out.print("Service command editor"); break;
+		System.out.print("Service command editor"); esther();
 	}
 
 	case 3:
-	System.out.println("Chat"); break;
+	System.out.println("Chat"); esther();
 
 	case 4:
 	System.out.println("Call register\n1. Missed calls\n2. Received calls\n3. Dialled numbers\n4. Erase recent call list\n5. Show call duration\n6. Show call costs\n7. Call cost settings\n8. Prepaid credit");
@@ -91,29 +96,29 @@ public class Nokia{
 		
 	switch(callRegister){
 		case 1:
-		System.out.println("Missed calls"); break;
+		System.out.println("Missed calls"); esther();
 		case 2:
-		System.out.println("Received calls"); break;
+		System.out.println("Received calls"); esther();
 		case 3:
-		System.out.println("Dialled numbers"); break;
+		System.out.println("Dialled numbers"); esther();
 		case 4:
-		System.out.println("Erase recent call lists"); break;
+		System.out.println("Erase recent call lists"); esther();
 		case 5:
 		System.out.println("Show call duration\n1. last call duration\n2. All calls duration\n3. Received calls' duration\n4. Dialled calls duration\n5. Clear timers");
 		int showCallDuration = input.nextInt();
 			switch(showCallDuration){
 				case 1:
-				System.out.println("last call duration"); break;
+				System.out.println("last call duration");
 				case 2:
-				System.out.println("All calls' duration"); break;
+				System.out.println("All calls' duration");
 				case 3:
-				System.out.println("Received calls' duration"); break;
+				System.out.println("Received calls' duration");
 				case 4:
-				System.out.println("Dialled calls' duration"); break;
+				System.out.println("Dialled calls' duration");
 				case 5:
-				System.out.println("Clear timers"); break;
+				System.out.println("Clear timers");
 			}
-		break;
+		esther();
 		case 6:
 		System.out.println("Show call costs\n1. Last call ");
 		int showCallCosts = input.nextInt();
@@ -125,20 +130,20 @@ public class Nokia{
 				case 3:
 				System.out.println("Clear counters"); 
 			}
-		break;
+		esther();
 		case 7:
 		System.out.println("Call cost settings\n1. Call cost limit\n2. Show cost in");
 		int callCostSettings = input.nextInt();
 
 			switch(callCostSettings){
 				case 1:
-				System.out.println("Call cost limit"); break;
+				System.out.println("Call cost limit");
 				case 2:
 				System.out.println("Show cost in");
 			}
-		break;
+		esther();
 		case 8:
-		System.out.print("Prepaid credit"); break;
+		System.out.print("Prepaid credit"); esther();
 	}
 
 	case 5:
@@ -147,23 +152,23 @@ public class Nokia{
 
 	switch(tones){  
 		case 1: 
-		System.out.println("Ringing tone"); break;
+		System.out.println("Ringing tone"); esther();
 		case 2: 
-		System.out.println("Ringing volume"); break;
+		System.out.println("Ringing volume"); esther();
 		case 3:
-		System.out.println("Incoming call alert"); break;
+		System.out.println("Incoming call alert"); esther();
 		case 4:
-		System.out.println("Composer"); break;
+		System.out.println("Composer"); esther();
 		case 5:
-		System.out.println("Message alert tone"); break;
+		System.out.println("Message alert tone"); esther();
 		case 6:
-		System.out.println("Keypad tones"); break;
+		System.out.println("Keypad tones"); esther();
 		case 7:
-		System.out.println("Warning and game tones"); break;
+		System.out.println("Warning and game tones"); esther();
 		case 8:
-		System.out.println("Vibrating alert"); break;
+		System.out.println("Vibrating alert"); esther();
 		case 9:
-		System.out.println("Screen saver"); break;
+		System.out.println("Screen saver"); esther();
 	}
 
 	case 6:
@@ -176,15 +181,15 @@ public class Nokia{
 
 					switch(callSettings){
 						case 1:
-						System.out.println("Automatic Redial"); break;
+						System.out.println("Automatic Redial"); esther();
 						case 2:
-						System.out.println("Speed dialling"); break;
+						System.out.println("Speed dialling"); esther();
 						case 3:
-						System.out.println("Call waiting options"); break;
+						System.out.println("Call waiting options"); esther();
 						case 4:
-						System.out.println("Own number sending"); break;
+						System.out.println("Own number sending"); esther();
 						case 5:
-						System.out.println("Phone in use"); break;
+						System.out.println("Phone in use"); esther();
 						case 6:
 						System.out.println("Automatic answer");
 					}
