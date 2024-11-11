@@ -12,7 +12,7 @@ public class SumOfDigits{
 		int number = input.nextInt();
 		
 		if(number > 0){
-			sum = sum + 1
+			sum = sum + number;
 			System.out.print(sum);
 		}
 		else{

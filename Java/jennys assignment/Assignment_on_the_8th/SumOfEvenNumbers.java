@@ -6,12 +6,21 @@ public class SumOfEvenNumbers{
 
 	int sum = 0;
 
-	for(int number = 1; number <= 10; number ++){
-		System.in.print("Enter a number: ");
-		int firstNumber = input.nextInt();
+	System.out.print("Enter the first number: ");
+	int firstNumber = input.nextInt();
 
+	System.out.print("Enter the second number: ");
+	int secondNumber = input.nextInt();
+
+	if(firstNumber < secondNumber){
+		for(int number = firstNumber; number < secondNumber; number ++){
+
+			if(number % 2 == 0){
+				sum += number;
+			}
+		}
+	System.out.print(sum);
 	}
-
 
 
 
