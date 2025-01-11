@@ -1,0 +1,25 @@
+pseudo code:
+Stage one:
+- Prompt the user to enter amount of water in kilogram and the initial and final temperature.
+- Calculate the energy needed to heat water from an initial temperature to a final temperature.
+- Display the result.
+
+stage two:
+- Prompt the user to enter amount of water in kilogram
+- collect the result 
+- store as "Kilogram"
+
+- Prompt the user to enter initial temperature
+- collect the result
+- store as "initialTemperature"
+
+- Prompt the user to enter final temperature
+- collect the result
+- store as "finalTemperature"
+
+- calculate the energy needed using "weightOfWaterInKilogram" * ("finalTemperature" - "initialTemperature") * 4184)
+- collect the result
+- store as "energyNeeded"
+- display "energyNeeded"
+
+

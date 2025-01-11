@@ -1,0 +1,47 @@
+pseudo code: integers
+- prompt the user to enter a number
+- collect the number
+- store as "firstNumber"
+
+- calculate firstDigit using "firstNumber" % 10
+- collect the number
+- store as "firstDigit"
+
+- calculate firstNumberDigit using "firstNumber" % 100
+- collect the number
+- store as "firstDigit"
+
+- prompt the user to enter a number
+- collect the number
+- store as "secondNumber"
+
+- calculate secondDigit using "secondNumber" % 10
+- collect the number
+- store as "secondDigit"
+
+- calculate secondNumberDigit using "firstNumber" % 100
+- collect the number
+- store as "secondNumberDigit"
+
+- prompt the user to enter a number
+- collect the number
+- store as "thirdNumber"
+
+- calculate thirdDigit using "secondNumber" % 10
+- collect the number
+- store as "thirdDigit"
+
+- calculate thirdNumberDigit using "firstNumber" % 100
+- collect the number
+- store as "thirdNumberDigit"
+
+- if firstDigit == secondDigit
+- display "true"
+
+- else if secondDigit == thirdDigit
+- display "true"
+
+- else if thirdDigit == firstDigit
+- display "true"
+
+- else display "false"

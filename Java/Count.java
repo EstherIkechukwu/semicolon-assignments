@@ -8,7 +8,7 @@ public class Count{
 	int negative = 0;
 	int zero = 0;
 
- while (count =< 5) {
+ while (count <= 5) {
 
 			System.out.print("Enter a number: " );
 			int number = input.nextInt();

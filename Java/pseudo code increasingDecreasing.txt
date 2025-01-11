@@ -1,0 +1,13 @@
+pseudo code: increasingDecreasing order:
+
+- Enter three numbers
+- collect the numbers
+- store as "firstNumber" "secondNumber" "thirdNumber"
+
+- compare if firstNumber > secondNumber && secondNumber > thirdNumber
+- display "they are in increasing order"
+
+- else if  firstNumber < secondNumber && secondNumber < thirdNumber
+- display "they are in decreasing order"
+
+- else display "invalid input"

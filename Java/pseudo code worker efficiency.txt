@@ -1,0 +1,17 @@
+pseudo code: worker efficiency
+
+- Prompt the user to enter time taken
+- collect the result
+- store as "timeTaken" 
+
+- if(timeTaken = 2-3hours )
+- display ("this worker is highly efficient")
+
+- if(timeTaken = 3-4 hours )
+- display ("this worker should improve speed")
+
+- if(timeTaken = 4-5hours)
+- display ("This worker should be given training to improve his speed")
+
+- if(timeTaken = more than 5hours)
+- display ("This worker is fired")

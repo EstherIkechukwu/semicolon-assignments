@@ -1,0 +1,17 @@
+pseudo code: libary
+
+- prompt the user to enter the number of days the member is late to return the book.
+- collect the result
+- store as "numberofDays"
+
+- compare if "numberofDays" == 5
+- display "fine is 50 paise"
+
+-  compare if "numberofDays" == 6 and "numberofDays" <= 10
+- display "fine is 1 Rupee"
+
+- compare if "numberofDays" > 10
+- display "fine is 5 Rupee"
+
+- compare if "numberofDays" > 30
+- display "membership is cancelled"

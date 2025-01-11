@@ -1,0 +1,13 @@
+pseudo code:
+
+- initialize maximum to 0
+- create a for loop that loops to less than 4
+- Prompt the user to Enter numbers.
+- collect the numbers individually
+- Store as "allNumbers"
+		
+- compare if "allNumbers" is greater than "maximum" and "maximum" is less than "allNumbers"
+- Asssign "allNumbers" to "maximum"
+- display "maximum"
+
+- 

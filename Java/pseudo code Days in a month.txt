@@ -1,0 +1,50 @@
+pseudo code: Days in a month
+
+- Prompt the user to enter month number
+- collect the number
+- store as "monthNumber"
+
+- Prompt the user to enter a year
+- collect the number
+- store as "year"
+
+- if monthNumber == 1
+- Display January has 31days
+
+- if monthNumber == 2
+- Display feburary has 31days
+
+- if monthNumber == 3
+- Display march has 31days
+
+- if monthNumber == 4
+- Display Apirl has 31days
+
+- if monthNumber == 5
+- Display May has 31days
+
+- if monthNumber == 6
+- Display June has 31days
+
+- if monthNumber == 7
+- Display July has 31days
+
+- if monthNumber == 8
+- Display August has 31days
+
+- if monthNumber == 9
+- Display September has 31days
+
+- if monthNumber == 10
+- Display october has 31days
+
+- if monthNumber == 11
+- Display november has 31days
+
+- if monthNumber == 12
+- Display December has 31days
+
+
+	
+
+

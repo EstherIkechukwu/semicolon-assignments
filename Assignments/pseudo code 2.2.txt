@@ -1,0 +1,20 @@
+pseudo code: 2.2
+Stage one:
+- Prompt the user to read the length of the sides of an equilateral triangle, computes the area and volume.
+- Display the result.
+
+stage Two:
+-prompt the user the enter the length of sides of the triangle.
+- collect the result.
+- store as "lengthOfSides".
+
+- Calculate the area using area = 1.732/4 * (lengthofSides * lengthOfSides)
+- collect the result
+- Store as "area"
+- Display the result.
+
+- calculate the volume using volume = area * lengthOfSides
+- collect the result.
+- store as "volume"
+- Display the result.
+ 

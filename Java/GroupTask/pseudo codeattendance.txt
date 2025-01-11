@@ -1,0 +1,33 @@
+pseudo code:attendance
+
+- Prompt the user to select a mark "\n1. 50\n2. 80\n3. 100\n"
+- collect the response 
+- store as "studentMarks"
+	
+- using the switch case
+- if it's case 1
+- display "Enter your attendance: "
+
+- Prompt the user to select their attendance "1. 10\n2. 20\n3. 30"
+- collect the result
+- store as "attendance"
+- using switch case if the user selects 1, display "Your grade is D"
+- if the user selects 2, display "Your grade is B"
+- if the user selects 3, display "Your grade is A"
+	
+- if the user enters case 2:
+- prompt the user to select their attendance "1. 20\n2. 30\n3. 20"
+- collect the result
+- store as "attendanceTwo" 
+- using switch case if user selects case 1, display "Your grade is C"
+- using switch case if user selects case 2, display "Your grade is B"
+- using switch case if user selects case 3, display "Your grade is A"
+
+-if the user enters case 3:
+- prompt the user to select their attendance "1. 20\n2. 30\n3. 20"
+- collect the result
+- store as "attendanceThree
+- using the switch case if the user selects case 1, display "Your grade is C"
+- using the switch case if the user selects case 2, display "Your grade is B"
+- using the switch case if the user selects case 3, case 3 "Your grade is A"
+		

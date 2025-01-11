@@ -1,0 +1,15 @@
+pseudo code: postiveNegative
+
+- prompt the user to enter a number
+- collect the number
+- store as "number"
+
+- if number > 0
+- display as "positive"
+
+- if number < 0
+- display as "negative"
+
+- if number == 0 
+- display as "neutral"
+

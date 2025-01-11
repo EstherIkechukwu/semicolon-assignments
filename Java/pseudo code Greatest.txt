@@ -1,0 +1,25 @@
+pseudo code: Greatest
+
+- Prompt the user to enter first number
+- collect the number
+- store as "firstNumber"
+
+- Prompt the user to enter second number
+- collect the number
+- store as "secondNumber"
+
+- Prompt the user to enter third number
+- collect the number
+- store as "thirdNumber"
+
+- if firstNumber > secondNumber and firstNumber > thirdNumber
+- display firstNumber as Greatest
+
+- if secondNumber > firstNumber and secondNumber > thirdNumber
+- display secondNumber as Greatest
+
+- if thirdNumber > firstNumber and thirdNumber > secondNumber
+- display thirdNumber as Greatest
+
+
+

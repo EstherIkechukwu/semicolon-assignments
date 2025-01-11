@@ -1,0 +1,19 @@
+pseudo code : two numbers
+
+- prompt the user to enter first number
+- collect the number 
+- store as "firstNumber"
+
+- prompt the user to enter first number
+- collect the number 
+- store as "secondNumber"
+
+- if firstNumber > secondNumber
+- Display "greater"
+- also display "You are going well...."
+		
+- calculate the sum using sum = firstNumber + secondNumber.
+
+- check if sum > 50
+- display "even sum is greater"
+	

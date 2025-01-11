@@ -17,52 +17,31 @@ public class Numbers{
 	System.out.print("Enter fifth number");
 	int fifth = input.nextInt();
 
-	if(first < 0){
-	System.out.printf("%d < 0%n", first);
-	}
-	if(second < 0){
-	System.out.printf("%d < 0%n", second);
- 	}
-	if (third < 0){
-	System.out.printf("%d < 0%n", third);
-	}
-	if (fourth < 0){
-	System.out.printf("%d < 0%n", fourth);
-	}
-	if (fifth < 0){
-	System.out.printf("%d < 0%n", fifth);
-	}
+	int positive = 0;
+	int negative = 0;
+	int zero = 0;
 
-	if(first > 0){
-	System.out.printf("%d > 0%n", first);
-	}
-	if(second > 0){
-	System.out.printf("%d > 0%n", second);
-	}
-	if(third > 0){
-	System.out.printf("%d > 0%n", third);
-	}
-	if(fourth > 0){
-	System.out.printf("%d > 0%n", fourth);
-	}
-	if(fifth > 0){
-	System.out.printf("%d > 0%n", fifth);
-	}
+	if (first > 0) positive++;
+	if (second > 0) positive++;
+	if (third > 0) positive++;
+	if (fourth > 0) positive++;
+	if (fifth > 0) positive++;
 
-	if(first == 0){
-	System.out.printf("%d == 0%n", first);
+	if (first < 0) negative++;
+	if (second < 0) negative++;
+	if (third < 0) negative++;
+	if (fourth < 0) negative++;
+	if (fifth < 0) negative++;
+
+	if (second == 0) zero++;
+	if (first == 0) zero++;
+	if (third == 0) zero++;
+	if (fourth == 0) zero++;
+	if (fifth == 0) zero++;
+
+	System.out.println("The number of positive number: " + positive);
+	System.out.println("The number of negative number: " + negative);
+	System.out.println("The number of zero numbers: " + zero);
+
 	}
- 	if(second == 0){
-	System.out.printf("%d == 0%n", second);
-	}
-	if(third == 0){
-	System.out.printf("%d == 0%n", third);
-	}
-	if(fourth == 0){  
-	System.out.printf("%d == 0%n", fourth);
-	}
-	if(fifth == 0){
-	System.out.printf("%d == 0%n", fifth);
-	}
-}
 }

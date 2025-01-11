@@ -1,0 +1,7 @@
+pseudo code: comtinue keyword
+
+- using for loop, initalize number = 0, to number less than 10, incrementing 
+- compare if number is equal to 4;
+- insert the continue keyword to stop the loop
+- display Number
+		

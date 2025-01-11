@@ -1,0 +1,16 @@
+pseudo code: Maximum
+
+- Enter three numbers
+- collect the numbers
+- store as "firstNumber","secondNumber", "thirdNumber".
+
+- compare the numbers, if firstNumber > secondNumber && firstNumber > thirdNumber
+- collect as largest
+
+- compare if secondNumber > firstNumber  && secondNumber > thirdNumber
+- collect as largest
+
+- compare if thirdNumber > secondNumber && thirdNumber > firstNumber
+- collect as largest 
+
+- Display Largest.

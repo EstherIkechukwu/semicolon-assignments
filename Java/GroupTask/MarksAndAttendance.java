@@ -21,6 +21,10 @@ public class MarksAndAttendance{
 
 		case 3:
 		System.out.print("Your grade is A");
+		
+		break;
+		default:
+		System.out.print("invalid input");
 		}
 		
 	break;
@@ -37,6 +41,11 @@ public class MarksAndAttendance{
 
 		case 3:
 		System.out.print("Your grade is A");
+		
+		break;
+		default:
+		System.out.print("invalid input");
+
 		}
 
 	break;
@@ -54,7 +63,15 @@ public class MarksAndAttendance{
 
 		case 3:
 		System.out.print("Your grade is A");
+
+		break;
+		default:
+		System.out.print("invalid input");
 		}
+	
+	break;
+	default:
+	System.out.print("invalid input");
 
 	}
 

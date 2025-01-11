@@ -1,0 +1,31 @@
+pseudo code:
+stage one:
+- Prompt the user to enter investment amount, Annual interest rate and the number of years
+
+- Display the future investment value
+
+Stage two:
+- prompt the user the enter investment amount
+- collect the number
+- store as "investmentAmount"
+
+- prompt the user to enter annual interest rate
+- collect the number 
+- store as "annualInterestRate"
+
+- prompt the user the enter the number of years
+- collect the number
+- store as "numberOfYears"
+
+- Calculate the monthly interest rate using : ("annualInterestRate" / 100) / 12.
+- collect the result
+- store as "monthlyInterestRate"
+
+- calculate power using "numberOfYears" * 12.
+- collect the result
+- store as "power"
+
+- calculate the future investment rate using : "investmentAmount" * (1 + "monthlyInterestRate" , "power")
+- collect the result
+- store as "futureInvestmentRate"
+- Display "futureInvestmentRate"

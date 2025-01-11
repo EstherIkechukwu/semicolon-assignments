@@ -1,0 +1,6 @@
+pseudo code:
+- using for loop starting from 0 to less 3, incrementing
+- using another for loop starting from 0 to 3, incrementing                  
+- calucalate the square of the numbers using number * number + index + 1 
+- store as "values"
+- display "values"

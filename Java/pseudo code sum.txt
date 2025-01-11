@@ -1,0 +1,5 @@
+pseudo code: 
+- enter 2 + 2 + 3 
+- collect the result
+- store as "sum"
+- display "sum"

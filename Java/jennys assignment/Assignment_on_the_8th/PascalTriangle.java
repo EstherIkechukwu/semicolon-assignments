@@ -1,19 +1,18 @@
-import java.util.Scanner;
 
 public class PascalTriangle{
 	public static void main(String[] args){
-	Scanner input = new Scanner(System.in);
-
-	System.out.print("Enter a number: ");
-	int value = input.nextInt();
-
-	for(int point 1; point <= value; point++){
-		for(int index = 1; index < point; index++){
-			System.out.print(index);
-		}	
+		
+for(int rows = 0; rows < 5 ; rows++) {
+	for (int count = 1; count <= 5 - rows; count++) {
+		System.out.print(" ");
 	}
-
-
+	int number = 1;
+	for (int numbers = 0; numbers <= rows; numbers++) {
+		System.out.print(number + " ");
+		number = number * (rows - numbers)/(numbers + 1);
+	}
+	System.out.println();
 }
 
+}
 }

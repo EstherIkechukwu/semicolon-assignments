@@ -1,0 +1,20 @@
+pseudo code: BMI
+
+Stage one:
+- Prompt the user to enter a weight in pounds and height in inches.
+- display the result.
+
+Stage two:
+- Prompt the user to enter weight in pounds 
+- collect the result
+- store as weightInPounds
+
+- Prompt the user to enter height in inches
+- collect the result
+- store as heightInInches
+
+- calculate the Body mass index using weightInPounds/ heightInInches * heightInInches
+
+one pound - 0.45359237
+
+one inch - 0.0254

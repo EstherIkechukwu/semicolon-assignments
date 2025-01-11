@@ -1,0 +1,19 @@
+pseudo code:
+
+- Prompt the user to enter first number
+- collect the result
+- store as "firstNumber"
+
+- prompt the user to enter second number
+- collect the result
+- store as "secondNumber"
+
+- prompt the user to enter third number
+- collect the result
+- store as "thirdNumber"
+
+- calculate the sum of "firstNumber" + "secondNumber" + "thirdNumber"
+- collect the result
+- store as "sum"
+- display "sum"
+

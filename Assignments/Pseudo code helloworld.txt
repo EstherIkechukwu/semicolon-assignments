@@ -1,0 +1,9 @@
+Pseudo code:
+Stage one:
+- prompt the user to enter "Hello world"
+- display the result.
+
+stage two:
+- prompt the user to enter "Hello world"
+- collect the result.
+- store as "HelloWorld"

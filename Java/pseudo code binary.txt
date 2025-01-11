@@ -1,0 +1,17 @@
+pseudo code: binary
+
+stage one:
+- Enter an integer number 
+- convert integer number to binary number
+- display the result.
+
+Stage two:
+- Enter an integer number
+- collect the result
+- store as integer
+ 
+- convert integer number to binary number
+- collect the result
+- store as binary
+- display the result.
+

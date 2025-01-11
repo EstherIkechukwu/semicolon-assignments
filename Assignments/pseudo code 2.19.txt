@@ -1,0 +1,55 @@
+pseudo code: 2.19
+stage one:
+- Prompt the user to enter three points (x1,y1), (x2,y2), (x3,y3) of a triangle.
+
+- Display the area.
+
+stage two:
+- prompt the user to enter first point.
+- collect first point
+- store as "x1"
+
+- prompt the user to enter second point.
+- collect second point
+- store as "y1"
+
+- prompt the user to enter third point.
+- collect third point.
+- store as "x2"
+
+- prompt the user to enter fourth point.
+- collect fourth point.
+- store as "y2"
+
+- prompt the user to enter fifth point.
+- collect fifth point.
+- store as "x3"
+
+- prompt the user to enter sixth point.
+- collect sixth point.
+- store as "y3"
+
+- calculate the sum of side1 using x1 + y1
+- collect the result
+- store as "side1"
+
+- calculate the sum of side2 using x2 + y2
+- collect the result
+- store as "side2"
+
+- calculate the sum of side3 using x3 + y3
+- collect the result
+- store as "side3"
+
+- calculate s using ("side1" + "side2" + "side3") / 3
+- collect the result
+- store as "averageSide"
+
+- Calculate the area "averageSide"("averageSide" - side1) * ("averageSide" - side2) * ("averageSide" - side3)
+- collect the result
+- store as "area"
+
+- calculate the square root of area using Math.sqrt(area) 
+- collect the result
+- store as "squareRootOfArea"
+

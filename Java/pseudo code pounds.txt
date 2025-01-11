@@ -1,0 +1,15 @@
+pseudo code: pounds
+
+stage one: 
+- prompt the user to enter a number in pounds, convert it to kilograms.
+- display the result.
+
+stage two: 
+- prompt the user to enter a number in pounds
+- collect the result
+- store as numberInPounds
+
+- convert numberInPounds to kilogram using numberInPounds * 0.454
+- collect the result
+- store as numberInKilograms
+ 

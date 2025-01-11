@@ -1,0 +1,18 @@
+pseudo code: PositiveNegativeNumbers
+
+- Prompt the user to enter a number 
+- collect the number 
+- store as "integar"
+
+- initialize integer as 0
+
+- compare, if integer > 0
+- display Integer as positive
+
+- compare if integer < 0
+- display Integer as negative
+
+- compare if integer == 0
+- display integer as zero
+
+

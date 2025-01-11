@@ -1,0 +1,10 @@
+pseudo code: polygon
+- Enter number Of Sides
+- collect the result
+- store as numberOfSides
+
+- Enter length Of Sides
+- collect the result
+- store as lengthOfSide
+
+-calculate the area using (numberOfSides * lengthOfSide * lengthOfSide) / (4 * tan (3.14 / numberOfSides);

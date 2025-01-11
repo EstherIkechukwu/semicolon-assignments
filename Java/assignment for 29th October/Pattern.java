@@ -5,7 +5,7 @@ public class Pattern{
 	System.out.println("Pattern A");
 	for(int asterisks = 1; asterisks <= 7; asterisks++){
 		for(int number = 1; number < asterisks; number++){
-		System.out.print("*");
+			System.out.print("*");
 		}
 		System.out.println();
 	}
@@ -13,7 +13,7 @@ public class Pattern{
 
 	System.out.println("Pattern B");
 	for(int asterisks = 7; asterisks >= 1; asterisks--){
-		for(int number = 1; number <= asterisks; number++){						System.out.print("*");
+		for(int number = 1; number <= asterisks; number++){				System.out.print("*");
 		}
 		System.out.println();
 	}

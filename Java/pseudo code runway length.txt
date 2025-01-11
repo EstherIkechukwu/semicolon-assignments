@@ -1,0 +1,18 @@
+pseudo code: runway length
+stage one:
+- Prompt the user to enter the velocity in meter/second and the acceleration in meter/second squared.
+- calculate the runway length
+- Display the minimum runway length.
+
+stage two:
+- prompt the user to enter the velocity in meter/second
+- collect the result
+- store as "velocity"
+
+- prompt the user to enter the acceleration in meter/second squared
+- collect the result
+- store as "acceleration"
+
+- calculate the runway length using velocity * velocity/ 2 * acceleration
+- collect the result
+- store as "runwayLength"

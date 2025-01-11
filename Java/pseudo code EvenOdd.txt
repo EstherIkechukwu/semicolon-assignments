@@ -1,0 +1,10 @@
+pseudo code: EvenOdd
+stage one:
+- prompt the user to enter a number
+- collect the number
+- store as "number"
+
+- calculate if number % by 2 = 0
+- if yes display 1
+
+- otherwise display 0

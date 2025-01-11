@@ -1,0 +1,11 @@
+pseudo code:
+- initialize counter to 1
+
+- while counter is less than or equal to 5
+- Prompt the user to Enter a number from 1 to 5.
+- collect the response
+- store as "number"
+- calculate the square using number * number
+- collect the result
+- store as "numberSquared" 			
+- display "numberSquared"

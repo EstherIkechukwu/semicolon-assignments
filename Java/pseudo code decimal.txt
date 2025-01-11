@@ -1,0 +1,17 @@
+pseudo code: decimal
+
+stage one:
+- Enter an binary number 
+- convert binary number to decimal number
+- display the result.
+
+Stage two:
+- Enter an binary number
+- collect the result
+- store as binary
+ 
+- convert binary number to decimal number
+- collect the result
+- store as convertedBinary
+- display the result.
+

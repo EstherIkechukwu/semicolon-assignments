@@ -1,0 +1,4 @@
+pseudo code :American flag
+
+- Enter (*) multiple times
+- display the result

@@ -20,6 +20,7 @@ public class PerfectNumber{
 		}
 		else{
 			System.out.print("It is a perfect number");
+		}
 
 	}
 }
